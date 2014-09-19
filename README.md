@@ -19,10 +19,6 @@ blue=getBlue(p)
 color=makeColor(blue,red,green)
 setColor(p,color)
 
-def grayScale (picture):
-for p in getPixels(picture):
-intensity=(getRed(p)+getGreen(p)+getBlue(p))/3
-setColor(p,makeColor(intensity,intensity,intensity))
 
 def pict():
 file = 'C:\\Users\\tmart_000\\Desktop\\wantchekonbio.jpg'
